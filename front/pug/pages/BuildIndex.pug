@@ -1,148 +1,147 @@
-.wrapper
-    section.auto
-        .auto__container
-            .auto__logo
-                img(src='img/logo.svg' alt="logo")
-            .auto__image
-                picture
-                    source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/car-head-mob.png")
-                    source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/car-head-mob.png")
-                    source(media="(min-width: 601px) and (max-width: 1112px) and (orientation: portrait)" srcset="img/car-head-desc.png")
-                    source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/car-head-desc.png")
-                    img(src="img/car-head-desc.png" alt="Favbet")
-            .auto__info
-                .auto__text Іде збір
-                .auto__progress
-                    .myProgress
-                        .percetn 44%
-                .auto__button
-                    a(href='#' class='auto__link')
-            .auto__left
-                .auto__left-done
-                .auto__left-load
-                    img(src='img/min-key.svg' alt='key')
-                .auto__left-none
-                .auto__left-none
-                .auto__left-none
-            .auto__right
-                .auto__right-none
-                .auto__right-none
-                .auto__right-none
-                .auto__right-none
-                .auto__right-none
-
-    section.game
-        .game__container
-            .game__arrow
-                img(src='img/arrow-down.svg' alt='arrow')
-            h2.game__title Бути всередині #[br] гри — це не #[br] тільки про #[br] емоції, а й про #[br] відповідальність
-            p.game__text Це означає бути частиною ком'юніті та в скрутний момент допомогти своїм.
-            .game__info
-                .game__info-text
-                    p Щоб швидше наближати перемогу, Збройні сили України повинні бути мобільними.
-                    p Ми вирішили допомогти нашим хлопцям з колесами. Частина коштів від кожного депозиту піде на закупку 10 машин для військових.
-                    p З тебе — депозит. З нас — тачки та тюнінг. Прокачай тачки для ЗСУ разом з нами.
-
-                .game__info-img
-                    img(src='img/comp.svg' alt='comp')
-                .game__info-arrow
-                    img(src='img/arrow-down.svg' alt='arrow')
-            h3.game__sub-title Як це працює
-            ul.game__row
-                li.game__item
-                    .game__item-img
-                        img(src='img/icon-1.svg' alt='icon')
-                    p.game__item-text Заходь на сайт
-                li.game__item
-                    .game__item-img
-                        img(src='img/icon-2.svg' alt='icon')
-                    p.game__item-text Реєструйся
-                li.game__item
-                    .game__item-img
-                        img(src='img/icon-3.svg' alt='icon')
-                    p.game__item-text Роби мінімальний депозит
-                li.game__item
-                    .game__item-img
-                        img(src='img/icon-4.svg' alt='icon')
-                    p.game__item-text Частина від кожного депозиту передається на покупку тачок
-            .game__button
-                a(href='#' class='game__link')
-    .line-1
-    section.buy
-        .buy__container
-            .buy__info
-                .buy__info-percent 44%
-                .buy__info-wrap
-                    .buy__info-progress
-                        .myProgress
-                            .arrow-right
-                                span
-                                span
-                                span
-                    .buy__info-text Тачки в процесі збору
-            .buy__row
-                .buy__item-done
-                .buy__item-load
-                    img(src='img/min-key.svg' alt='key')
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-                .buy__item-none
-            .buy__image
-                .buy__image-wrap
-                    .border
-                    .blick
+.fav__page
+    .wrapper
+        section.auto
+            .auto__container
+                .auto__logo
+                    img(src='img/logo.svg' alt="logo")
+                .auto__image
                     picture
-                        source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/car-buy-mob.png")
-                        source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/car-buy-mob.png")
-                        source(media="(min-width: 601px) and (max-width: 1112px) and (orientation: portrait)" srcset="img/car-buy-desc.png")
-                        source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/car-buy-desc.png")
-                        img(src="img/car-buy-desc.png" alt="Favbet")
-            .buy__button
-                a(href='#' class='buy__link')
-    .line-1
-    section.youtube
-        .youtube__container
-            h2.youtube__title Слідкуй за #[br] прокачкою на ютубі
-            .youtube__info
-                p.youtube__info-text Тюнінг by
-                img(src='img/tune.svg' alt='logo')
-            .auto__buy
-                .auto__buy-slider#prizes-slider
-                    .auto__buy-slider-item
-                        img(src='img/test.jpg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-1.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-3.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-1.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-2.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-3.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-1.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-3.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/cat-3.jpeg' alt='icon')
-                    .auto__buy-slider-item
-                        img(src='img/test.jpg' alt='icon')
-                .auto__buy-controls
-                    .controls-left.arrow-disabled
-                        .controls-left__arrow
-                    .controls-right
-                        .controls-right__arrow
-                .auto__buy-info
-                    .controls-play
-                    .controls-text Випуск #[span.counter 1] з 10
-                    .controls__button
-                        a(href='#' class='controls__link')
+                        source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/car-head-mob.png")
+                        source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/car-head-mob.png")
+                        source(media="(min-width: 601px) and (max-width: 1112px) and (orientation: portrait)" srcset="img/car-head-desc.png")
+                        source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/car-head-desc.png")
+                        img(src="img/car-head-desc.png" alt="Favbet")
+                .auto__info
+                    .auto__text Іде збір
+                    .auto__progress
+                        .myProgress
+                            .percetn 10%
+                    .auto__button
+                        a(href='#' class='auto__link')
+                .auto__left
+                    .auto__left-none.auto-win.load
+                    .auto__left-none.auto-win
+                    .auto__left-none.auto-win
+                    .auto__left-none.auto-win
+                    .auto__left-none.auto-win
+                .auto__right
+                    .auto__right-none.auto-win
+                    .auto__right-none.auto-win
+                    .auto__right-none.auto-win
+                    .auto__right-none.auto-win
+                    .auto__right-none.auto-win
+
+        section.game
+            .game__container
+                .game__arrow
+                    img(src='img/arrow-down.svg' alt='arrow')
+                h2.game__title Бути всередині #[br] гри — це не #[br] тільки про #[br] емоції, а й про #[br] відповідальність
+                p.game__text Це означає бути частиною ком'юніті та в скрутний момент допомогти своїм.
+                .game__info
+                    .game__info-text
+                        p Щоб швидше наближати перемогу, Збройні сили України повинні бути мобільними.
+                        p Ми вирішили допомогти нашим хлопцям з колесами. Частина коштів від кожного депозиту піде на закупку 10 машин для військових.
+                        p З тебе — депозит. З нас — тачки та тюнінг. Прокачай тачки для ЗСУ разом з нами.
+
+                    .game__info-img
+                        img(src='img/comp.svg' alt='comp')
+                    .game__info-arrow
+                        img(src='img/arrow-down.svg' alt='arrow')
+                h3.game__sub-title Як це працює
+                ul.game__row
+                    li.game__item
+                        .game__item-img
+                            img(src='img/icon-1.svg' alt='icon')
+                        p.game__item-text Заходь на сайт
+                    li.game__item
+                        .game__item-img
+                            img(src='img/icon-2.svg' alt='icon')
+                        p.game__item-text Реєструйся
+                    li.game__item
+                        .game__item-img
+                            img(src='img/icon-3.svg' alt='icon')
+                        p.game__item-text Роби мінімальний депозит
+                    li.game__item
+                        .game__item-img
+                            img(src='img/icon-4.svg' alt='icon')
+                        p.game__item-text Частина від кожного депозиту передається на покупку тачок
+                .game__button
+                    a(href='#' class='game__link')
+        .line-1
+        section.buy
+            .buy__container
+                .buy__info
+                    .buy__info-percent.percetn 10%
+                    .buy__info-wrap
+                        .buy__info-progress
+                            .myProgress
+                                .arrow-right
+                                    span
+                                    span
+                                    span
+                        .buy__info-text Тачки в процесі збору
+                .buy__row
+                    .buy__item-none.auto-win-2.load
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                    .buy__item-none.auto-win-2
+                .buy__image
+                    .buy__image-wrap
+                        .border
+                        .blick
+                        picture
+                            source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/car-buy-mob.png")
+                            source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/car-buy-mob.png")
+                            source(media="(min-width: 601px) and (max-width: 1112px) and (orientation: portrait)" srcset="img/car-buy-desc.png")
+                            source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/car-buy-desc.png")
+                            img(src="img/car-buy-desc.png" alt="Favbet")
+                .buy__button
+                    a(href='#' class='buy__link')
+        .line-1
+        section.youtube
+            .youtube__container
+                h2.youtube__title Слідкуй за #[br] прокачкою на ютубі
+                .youtube__info
+                    p.youtube__info-text Тюнінг by
+                    img(src='img/tune.svg' alt='logo')
+                .auto__buy
+                    .auto__buy-slider#prizes-slider
+                        .auto__buy-slider-item
+                            img(src='img/test.jpg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-1.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-3.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-1.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-2.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-3.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-1.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-3.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/cat-3.jpeg' alt='icon')
+                        .auto__buy-slider-item
+                            img(src='img/test.jpg' alt='icon')
+                    .auto__buy-controls
+                        .controls-left.arrow-disabled
+                            .controls-left__arrow
+                        .controls-right
+                            .controls-right__arrow
+                    .auto__buy-info
+                        .controls-play
+                        .controls-text Випуск #[span.counter 1] з 10
+                        .controls__button
+                            a(href='#' class='controls__link')
 
 
 
