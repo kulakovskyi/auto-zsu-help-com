@@ -1,5 +1,5 @@
 (function () {
-    const promoStartDate = new Date(Date.UTC(2022, 8, 12));
+    const promoStartDate = new Date(Date.UTC(2022, 8, 26));
     const promoCheckpointsCnt = 10;
     const daysPerUpdate = 11;
     const promoCheckPointDates = computePromoCheckpointDates();
@@ -21,7 +21,7 @@
 
     function getCurrentCheckpoint() {
         const currentTimestamp =  Date.now();
-        let checkpointNum = 9;
+        let checkpointNum = 0;
         while(currentTimestamp >= promoCheckPointDates[checkpointNum]) {
             checkpointNum++;
         }
